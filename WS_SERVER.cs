@@ -760,7 +760,7 @@ namespace Websocket_Server
                         Thread.Sleep(500);
                         tc.WriteLine("MT00SW" + passedId + "03NT");
                     }
-                }
+                }//
                 Thread.Sleep(250);
                 _socket.Send("Finished Changing Display");
 
